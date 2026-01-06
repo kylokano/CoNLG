@@ -148,15 +148,3 @@ python CF_model_test_debias.py
 # Step 3 
 python LLMRS_prompt.py
 ```
-
-# Reference
-
-```
-@article{li2025counter,
-      title={Counterfactual Language Reasoning for Explainable Recommendation Systems}, 
-      author={Guanrong Li and Haolin Yang and Xinyu Liu and Zhen Wu and Xinyu Dai},
-      journal={arXiv preprint arXiv:2503.08051},
-      year={2025},
-      url={https://arxiv.org/abs/2503.08051}, 
-}
-```
