@@ -1,5 +1,4 @@
-# CausalX
-
+# CoNLG
 # Quick Verification
 
 We have provided the final results and all intermediate outcomes in json or pkl formats for verification. To save storage space, all results have been compressed into ZIP format.
@@ -18,7 +17,6 @@ We have provided the final results and all intermediate outcomes in json or pkl 
 
 # Getting Started
 
-Please note, the complete implementation code is not included here. Necessary modifications to the Python RecBole package (sections with ~~strikethrough~~ below) are also omitted. The full code will be released after our paper is published.
 
 ## Required Packages
 
