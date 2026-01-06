@@ -3,14 +3,14 @@
 
 We have provided the final results and all intermediate outcomes in json or pkl formats for verification. To save storage space, all results have been compressed into ZIP format.
 
-- **Step 1: Candidate Explanations Generation**
+- **Step 1: Guideline Generation**
 
   - Access raw generated explanations by OpenAI at `candidate_reasons/openai_reasons_cache/`.
   - Constructed database is located at `reasons_cf_datasets/`.
-- **Step 2: Debias Explanation Selection**
+- **Step 2: Counterfactual Refinement**
 
   - Selected explanations are available at `reasons_cf_datasets/dataset_name/user2reasons.json`.
-- **Step 3: Recommendation Prompt and Results**
+- **Step 3: Guided Reasoning**
 
   - Recommendation prompt is provided at `recommendation_prompt4LLM/with_reasons_outputs`.
   - Recommendation results can be found at `recommendation_prompt4LLM/with_reasons_results`.
